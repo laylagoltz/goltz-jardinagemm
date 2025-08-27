@@ -9,7 +9,6 @@ export default function Servicos() {
             { title: "Paisagismo personalizado", icon: "🌱" },
             { title: "Gramados e áreas verdes", icon: "🍃" },
             { title: "Decoração com plantas", icon: "🌸" },
-            { title: "Irrigação automática", icon: "💧" },
             { title: "Consultoria de jardinagem", icon: "📋" },
           ].map((s, i) => (
             <div key={i} className="p-8 rounded-3xl bg-gradient-to-br from-green-50 to-green-100 shadow-2xl hover:shadow-green-500/50 transition transform hover:-translate-y-3">
